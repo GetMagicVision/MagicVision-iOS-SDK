@@ -1,0 +1,10 @@
+framework module MagicVision {
+  umbrella header "MagicVision.h"
+
+  export *
+  module * { export * }
+}
+
+module MagicVision.Swift {
+    header "MagicVision-Swift.h"
+}
