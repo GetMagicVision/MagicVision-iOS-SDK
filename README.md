@@ -21,7 +21,7 @@ To run the example project, clone the repo, and open `Example` target within Xco
 MagicVision is available through [Carthage](https://github.com/carthage/carthage). To install it, simply add the following line to your Cartfile:
 
 ```
-github "GetMagicVision/MagicVision"
+github "GetMagicVision/MagicVision-iOS-SDK"
 ```
 
 ### Cocoapods
@@ -30,7 +30,7 @@ MagicVision is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MagicVision"
+pod 'MagicVision', :git => 'git@gitlab.ipa.social:MagicVision/MagicVision-iOS-SDK.git'
 ```
 
 ## Author
