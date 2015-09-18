@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MagicVision-Swift.h</key>
 		<data>
-		7T+96c3qYAPaRl4RYW7+7eYLKp0=
+		tHMByHdzgdhjJt5ha+YGSSkSGH0=
 		</data>
 		<key>Headers/MagicVision.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H1CNMPhPWyEvGwA8q05xTGYAzHg=
+		y4HOFnhlzcQWRPG8oAutPLUQbcA=
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm.swiftmodule</key>
 		<data>
-		IKOsmVueFAhlrDw0F1WsiSLuK18=
+		ZqDKGD1Qssz5qERkkK6zO8HoGuw=
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		LIr1fUOiSg4DGaqd80MvuRgRfo8=
+		c3fnVQuvOiB2SH4DlkqllolazGo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,7 +41,7 @@
 	<dict>
 		<key>Headers/MagicVision-Swift.h</key>
 		<data>
-		7T+96c3qYAPaRl4RYW7+7eYLKp0=
+		tHMByHdzgdhjJt5ha+YGSSkSGH0=
 		</data>
 		<key>Headers/MagicVision.h</key>
 		<data>
@@ -53,7 +53,7 @@
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm.swiftmodule</key>
 		<data>
-		IKOsmVueFAhlrDw0F1WsiSLuK18=
+		ZqDKGD1Qssz5qERkkK6zO8HoGuw=
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -61,7 +61,7 @@
 		</data>
 		<key>Modules/MagicVision.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		LIr1fUOiSg4DGaqd80MvuRgRfo8=
+		c3fnVQuvOiB2SH4DlkqllolazGo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
