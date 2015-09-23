@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9208B4691B8EBDE000C1631B /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208B4681B8EBDE000C1631B /* UnitTests.swift */; };
-		92DC990A1B9215EE00350407 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DC99091B9215EE00350407 /* Nimble.framework */; };
 		92DC99291B93418500350407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC99281B93418500350407 /* AppDelegate.swift */; };
 		92DC992B1B93418500350407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC992A1B93418500350407 /* ViewController.swift */; };
 		92DC992E1B93418500350407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC992C1B93418500350407 /* Main.storyboard */; };
 		92DC99301B93418500350407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DC992F1B93418500350407 /* Assets.xcassets */; };
 		92DC99331B93418500350407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DC99311B93418500350407 /* LaunchScreen.storyboard */; };
-		FE1E78151BA9522E001D50C4 /* MagicVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E78101BA94F21001D50C4 /* MagicVision.framework */; };
-		FE1E78161BA9522E001D50C4 /* MagicVision.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E78101BA94F21001D50C4 /* MagicVision.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE37DF081BB25388001858F4 /* MagicVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37DF071BB25388001858F4 /* MagicVision.framework */; };
+		FE37DF091BB25388001858F4 /* MagicVision.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE37DF071BB25388001858F4 /* MagicVision.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEDAD9F31BB24F3500800651 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDAD9F21BB24F3500800651 /* Nimble.framework */; };
+		FEDAD9F71BB2506D00800651 /* face_example_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDAD9F51BB2506D00800651 /* face_example_1.png */; settings = {ASSET_TAGS = (); }; };
+		FEDAD9F81BB2506D00800651 /* no_face_example.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDAD9F61BB2506D00800651 /* no_face_example.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FE1E78171BA9522E001D50C4 /* Embed Frameworks */ = {
+		FE37DF0A1BB25388001858F4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FE1E78161BA9522E001D50C4 /* MagicVision.framework in Embed Frameworks */,
+				FE37DF091BB25388001858F4 /* MagicVision.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,7 +38,6 @@
 		9208B4631B8EBDE000C1631B /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9208B4681B8EBDE000C1631B /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
 		9208B46A1B8EBDE000C1631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92DC99091B9215EE00350407 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		92DC99261B93418500350407 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC99281B93418500350407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DC992A1B93418500350407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +45,10 @@
 		92DC992F1B93418500350407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DC99321B93418500350407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DC99341B93418500350407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE1E78101BA94F21001D50C4 /* MagicVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicVision.framework; path = Frameworks/MagicVision.framework; sourceTree = "<group>"; };
+		FE37DF071BB25388001858F4 /* MagicVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicVision.framework; path = Frameworks/MagicVision.framework; sourceTree = "<group>"; };
+		FEDAD9F21BB24F3500800651 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		FEDAD9F51BB2506D00800651 /* face_example_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_example_1.png; sourceTree = "<group>"; };
+		FEDAD9F61BB2506D00800651 /* no_face_example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_face_example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DC990A1B9215EE00350407 /* Nimble.framework in Frameworks */,
+				FEDAD9F31BB24F3500800651 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1E78151BA9522E001D50C4 /* MagicVision.framework in Frameworks */,
+				FE37DF081BB25388001858F4 /* MagicVision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +102,7 @@
 		92DC99271B93418500350407 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				FEDAD9F41BB2506D00800651 /* FaceResource */,
 				92DC99281B93418500350407 /* AppDelegate.swift */,
 				92DC992A1B93418500350407 /* ViewController.swift */,
 				92DC992C1B93418500350407 /* Main.storyboard */,
@@ -111,10 +116,19 @@
 		92DC99381B93437800350407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE1E78101BA94F21001D50C4 /* MagicVision.framework */,
-				92DC99091B9215EE00350407 /* Nimble.framework */,
+				FE37DF071BB25388001858F4 /* MagicVision.framework */,
+				FEDAD9F21BB24F3500800651 /* Nimble.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDAD9F41BB2506D00800651 /* FaceResource */ = {
+			isa = PBXGroup;
+			children = (
+				FEDAD9F51BB2506D00800651 /* face_example_1.png */,
+				FEDAD9F61BB2506D00800651 /* no_face_example.png */,
+			);
+			path = FaceResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +159,7 @@
 				92DC99221B93418500350407 /* Sources */,
 				92DC99231B93418500350407 /* Frameworks */,
 				92DC99241B93418500350407 /* Resources */,
-				FE1E78171BA9522E001D50C4 /* Embed Frameworks */,
+				FE37DF0A1BB25388001858F4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,9 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDAD9F81BB2506D00800651 /* no_face_example.png in Resources */,
 				92DC99331B93418500350407 /* LaunchScreen.storyboard in Resources */,
 				92DC99301B93418500350407 /* Assets.xcassets in Resources */,
 				92DC992E1B93418500350407 /* Main.storyboard in Resources */,
+				FEDAD9F71BB2506D00800651 /* face_example_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
